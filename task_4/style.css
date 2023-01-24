@@ -1,0 +1,75 @@
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+}
+
+main {
+background-image: url(bg.image.avif) ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 200px;
+    background-color: aqua;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+    
+}
+.box1 {
+
+    background-color: green ;
+    border-top: 30px solid green;
+    border-bottom: 30px solid yellow;
+    border-right: 30px solid yellowgreen;
+    border-left: 30px solid black;
+}
+
+.box2 {
+    background-color: red ;
+    border: 10px dotted;
+}
+
+
+.box3 {
+    background-color: brown;
+    width: 10%;
+    border-radius: 50%;
+
+    
+}
+.box4 {
+    background-color:black ;
+    border-radius: 10px ;
+}
