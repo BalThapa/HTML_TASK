@@ -7,7 +7,12 @@
 
 body {
     background-color: rgb(159, 230, 241);
+    font-family: 'Open Sans', sans-serif;
     
+}
+
+input, textarea, select {
+ font-family: inherit;
 }
 
 header {
@@ -40,6 +45,12 @@ h2 {
     padding-left: 0;
 }
 
+h2 {
+    font-size: 50px;
+    padding: 150px 0;
+    text-align: center;
+}
+
 .box {
     background-color: coral;
     height: 100px;
@@ -49,5 +60,9 @@ h2 {
     margin: 20px;
     margin-left: 0px; 
     float: left; 
+}
+
+p {
+    line-height:  1.5;
 }
 
