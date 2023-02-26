@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #6565e3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 1.2rem;
+}
+
+/* ul {
+    display: flex;
+}*/
+
+li {
+    display: inline-block;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1rem;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+p:first-child{
+    background-color: white;
+}
+p:last-child{
+    background-color: aqua;
+    color: red;
+}
+
+/*inside small brackets any numbers of para could be kept*/
+
+p:nth-child(7){
+    background-color: yellow;
+}
+
+p:nth-child(3n) {
+    color: blue;
+}
+
+p:nth-child(even){
+    color: white;
+}
+p:nth-child(2n+4) {
+    background-color: rgb(40, 53, 20);
+}
+
+h2::before {
+    content: '';
+    color: tomato;
+}
+h2::after {
+    content: 'I will be here';
+    height: 50px;
+    width: 200px;
+    color: bisque;
+    display: block;
+}
+/*use positions when needed not always*/
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(245, 100, 100);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.box1 {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(245, 100, 100);
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(245, 100, 100);
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(100, 245, 180);
+    position: sticky;
+    top: 50px;
+    left: 200px;
+}
+button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+/* z-index is used for changing the position of the overlapped box 
+for sending behind value should be less and vice versa */
+

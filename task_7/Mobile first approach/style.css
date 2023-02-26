@@ -1,0 +1,28 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: bisque;
+}
+
+@media (min-width: 576px) {
+    body{
+    background-color: green;
+    }
+}
+@media (min-width: 768px) {
+    body{
+    background-color: rgb(28, 203, 28);
+    }
+}
+@media (min-width: 992px) {
+    body{
+    background-color: rgb(106, 157, 106);
+    }
+}
+@media (min-width: 1200px) {
+    body{
+    background-color: rgb(3, 17, 3);
+    }
+}

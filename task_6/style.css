@@ -2,6 +2,7 @@ body {
     background-color: rgb(36, 112, 72) ;
     padding: 35%;
    padding-top: 50px;
+   
 }
 
 h1 { 
@@ -36,28 +37,6 @@ input {
     margin-bottom: 5px;
     
 }
-.Ln {
-    font-size: 10px; 
-    margin-bottom: 5px;
-}
-
-
-.EL{
-    font-size: 10px;
-    margin-bottom: 5px;
-}
-
-
-.Pass{
-    font-size: 10px;
-    margin-bottom: 5px;
-}
-
-
-.CP{
-    font-size: 10px;
-    margin-bottom: 5px;
-}
 
 h2{
     text-align: center;
@@ -67,8 +46,9 @@ h2{
 }
 
 .signup {
+    border: none;
     border-radius: 5px;
-    background-color: rgb(248, 118, 71);
+    background-color: tomato;
     text-align: center;
     color: white;
     width: 80%;

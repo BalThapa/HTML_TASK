@@ -1,13 +1,17 @@
 * {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
     overscroll-behavior: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #c8dbe5;
-    font-family: 'Raleway', sans-serif;   
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -22,8 +26,15 @@ header {
     height: 3rem;
 }
 
-#hero-banner{
-    height: 75vh ;
+.bg {
+    background: #c8dbe5;
+    color: #333;
+    padding: 0.5rem;
+    height: 3 rem;
+}
+
+#hero-banner {
+    height: 75vh;
     background: url(own\ image.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -43,22 +54,33 @@ h3 {
 }
 
 h4,
- i,
-  a {
+i,
+a {
     padding: 0.5rem;
 
 }
 
+.mobile {
+    display: none;
+    background-color: none;
+    border: none;
+    box-shadow: none;
+    color: rgb(227, 18, 18);
+}
+
+
 nav ul li a {
-    color: white;
+    color: inherit;
     padding: 1rem;
     text-decoration: none;
 }
+
 a {
     padding: 0.5rem;
     color: tomato;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -71,15 +93,15 @@ nav ul li {
 .container {
     display: flex;
     width: 250px;
-    background-color: white ;
+    background-color: white;
     border: solid;
-    border-color: #c5d3da; 
+    border-color: #c5d3da;
     border-radius: 5px;
     flex-wrap: wrap;
 
 }
 
-#group { 
+#group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -88,13 +110,14 @@ nav ul li {
 
 img {
     width: 100%;
-    padding: 0.5rem;   
+    padding: 0.5rem;
 }
 
 .container1 {
     background-color: white;
     height: 18rem;
 }
+
 #H {
     padding-top: 2rem;
     margin-top: 2rem;
@@ -104,14 +127,16 @@ p {
     padding-right: 5rem;
     padding-top: 1rem;
 }
+
 .box1 {
     height: 15rem;
     width: 15rem;
     padding: 10px;
     padding-top: 5px;
-    margin-left: 8rem; 
-    float: left;   
+    margin-left: 8rem;
+    float: left;
 }
+
 .box {
     background-color: white;
     height: 10rem;
@@ -119,25 +144,28 @@ p {
     padding: 1rem;
     border: solid;
     border-color: #c5d3da;
-    margin-left: 9rem; 
-    float: left; 
-    text-align: center; 
+    margin-left: 9rem;
+    float: left;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
-    
-    
-}
-.fa-brands {
-    font-size: 3rem;
-   
+
 
 }
+
+.fa-brands {
+    font-size: 3rem;
+
+
+}
+
 .skill {
     width: 100%;
     margin-top: 1rem;
-   
+
 
 }
+
 #skl {
     width: 10%;
     padding-top: 0.5rem;
@@ -145,22 +173,26 @@ p {
     background-color: tomato;
 
 }
+
 #Acc {
     width: 60%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: tomato;
 }
+
 #OT {
     width: 60%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: tomato;
 }
+
 .container2 {
     height: 18rem;
-    
+
 }
+
 .container3 {
     height: 18rem;
     background-color: rgb(92, 60, 60);
@@ -168,24 +200,85 @@ p {
     display: block;
     justify-content: center;
     align-items: center;
-    
-}  
+
+}
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
 
 }
+
+label {
+    margin: 1rem;
+    margin-top: 0;
+    padding: 5px;
+}
+
+input {
+    padding: 2px;
+    margin: 1px;
+}
+
+small {
+    margin-top: 2px;
+}
+
 .send {
     background-color: tomato;
     color: white;
     padding: 5px;
     border-radius: 5px;
-    margin-top: 1rem;
-} 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
+button {
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: rgb(206, 129, 129);
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5rem 1.5rem;
 
+}
 
+#backToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
+}
 
+@media (max-width: 800px) {
+    nav ul {
+        display: none;
+    }
 
+    .mobile {
+        display: block;
+    }
+
+    ul.responsive {
+        display: block;
+        background-color: white;
+        color: #333;
+        position: absolute;
+        left: 0;
+        top: 5rem;
+        width: 100%;
+
+    }
+
+    ul.responsive li {
+        display: block;
+        margin: 1rem;
+    }
+
+    header .bg .mobile {
+        color: #333;
+    }
+}
