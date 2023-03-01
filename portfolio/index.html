@@ -29,9 +29,9 @@
             </button>
             <ul>
                 <li><a href="#">Projects</a></li>
-                <li><a href="#Skills">Skills</a></li>
                 <li><a href="#About_me">About me</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,9 +39,9 @@
         <section id="hero-banner">
             <h2>Welcome to my portfolio</h2>
         </section>
-        <div>
+        <section>
             <h3>Projects</h3>
-            <section id="group">
+            <div id="group">
                 <div class="container" id="one"><img src="two.jpeg" alt="direction">
                     <h4>Lorem Ipsum</h4>
                     <i>Html,CSS and JavaScript</i><a href="https://unsplash.com/s/photos/html-css" target="_blank">See
@@ -58,23 +58,28 @@
                     <h4>Lorem Ipsum</h4><i>React and Wunder project</i><a href="https://unsplash.com/s/photos/react"
                         target="_blank">See more...</a>
                 </div>
-            </section>
-        </div>
-
-        <div class="container1">
-            <h3 id="H">About me</h3>
-            <div class="box1"><img src="lophophorus.jpeg" alt="peasent"></div>
-            <p id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error laudantium nesciunt!
-                Illum vero, laboriosam porro quas odit, ipsa atque eveniet autem dignissimos accusamus consequuntur esse
-                voluptatem magnam aliquid vel? Soluta animi praesentium eaque. Minima necessitatibus qui cumque sapiente
-                corrupti quae, eveniet quia dolore laudantium eius accusantium velit voluptatem tempora odio ut eum
-                cupiditate rerum iusto unde quaerat fugiat? Ipsam sunt velit doloremque eius nemo odit rerum architecto
-                veniam, distinctio eum sit ea nesciunt culpa quis aut soluta placeat dignissimos amet consectetur
-                repudiandae dolore facere? Dolores dolorem nam totam veritatis hic. Neque impedit maiores numquam
-                assumenda aut quas dicta ipsa! </p>
-
-        </div>
-        <section>
+            </div>
+        </section>
+        <section class="container1">
+            <div id="About_me">
+                <h3 id="H">About me</h3>
+                <div class="box1"><img src="lophophorus.jpeg" alt="peasent"></div>
+                <p id="about"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error laudantium
+                    nesciunt!
+                    Illum vero, laboriosam porro quas odit, ipsa atque eveniet autem dignissimos accusamus consequuntur
+                    esse
+                    voluptatem magnam aliquid vel? Soluta animi praesentium eaque. Minima necessitatibus qui cumque
+                    sapiente
+                    corrupti quae, eveniet quia dolore laudantium eius accusantium velit voluptatem tempora odio ut eum
+                    cupiditate rerum iusto unde quaerat fugiat? Ipsam sunt velit doloremque eius nemo odit rerum
+                    architecto
+                    veniam, distinctio eum sit ea nesciunt culpa quis aut soluta placeat dignissimos amet consectetur
+                    repudiandae dolore facere? Dolores dolorem nam totam veritatis hic. Neque impedit maiores numquam
+                    assumenda aut quas dicta ipsa!
+                </p>
+            </div>
+        </section>
+        <section id="Skills">
             <div class="container2">
                 <h3>Skills</h3>
                 <div class="box"><i class="fa-brands fa-html5"></i>
@@ -96,26 +101,25 @@
             </div>
         </section>
 
-
     </main>
-    <div>
-        <footer>
-            <section>
-                <div class="container3">
-                    <form>
-                        <h4>Contact Me</h4>
-                        <label>Your Name <input type="text"></label>
-                        <label>Your Email <input type="email"></label>
-                        <label>Message <input type="textarea"></label>
-
+    <section>
+        <footer id="Contact">
+            <div class="container3">
+                <form>
+                    <h4>Contact</h4>
+                    <label>Your Name <input type="text"></label>
+                    <label>Your Email <input type="email"></label>
+                    <label for="textarea">Message <textarea id="message" rows="5" cols="23"></textarea>
                         <div><button class="send">SEND MESSAGE</button></div>
                         <small> Copyright&copy;MyWebsite2023</small>
-                    </form>
-                </div>
-            </section>
-            <button id="backToTop">Back to Top</button>
+
+
+                </form>
+            </div>
+
         </footer>
-    </div>
+        <button id="backToTop">Back to Top</button>
+    </section>
     <script src="main.js"></script>
 </body>
 

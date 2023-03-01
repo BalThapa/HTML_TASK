@@ -98,6 +98,7 @@ nav ul li {
     border-color: #c5d3da;
     border-radius: 5px;
     flex-wrap: wrap;
+    box-shadow: rgb(19, 19, 19) 0 0 50px;
 
 }
 
@@ -106,6 +107,7 @@ nav ul li {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 img {
@@ -116,6 +118,7 @@ img {
 .container1 {
     background-color: white;
     height: 18rem;
+
 }
 
 #H {
@@ -149,18 +152,15 @@ p {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-
-
+    border-radius: 5px;
+    box-shadow: rgb(19, 19, 19) 0 0 50px;
 }
 
 .fa-brands {
     font-size: 3rem;
-
-
 }
 
 .skill {
-    width: 100%;
     margin-top: 1rem;
 
 
@@ -190,17 +190,12 @@ p {
 
 .container2 {
     height: 18rem;
-
 }
 
 .container3 {
-    height: 18rem;
+    height: 25rem;
     background-color: rgb(92, 60, 60);
     color: white;
-    display: block;
-    justify-content: center;
-    align-items: center;
-
 }
 
 form {
@@ -213,15 +208,24 @@ form {
 }
 
 label {
+    display: inline-block;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     margin: 1rem;
     margin-top: 0;
     padding: 5px;
 }
 
 input {
+    display: inline-block;
+    flex-direction: row;
     padding: 2px;
     margin: 1px;
+    width: 200px;
 }
+
+
 
 small {
     margin-top: 2px;
